@@ -31,16 +31,18 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository**:
 
-   ```bash
+ ```bash
    git clone https://github.com/Miheret-Girmachew/next_auth.git
 ```
 
 ```bash
-
 npm install
 ```
 
-```env
+** .env.local **
+
+```
+
 NEXTAUTH_URL=http://localhost:3000
 NEXTAUTH_SECRET=your-nextauth-secret
 
